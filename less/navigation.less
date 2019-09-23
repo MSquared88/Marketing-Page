@@ -5,6 +5,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    border: 1px solid black;
+    background-color: lightgrey;
     @media @mobile{
     //background-color: pink;
     flex-direction: column;
@@ -13,7 +15,7 @@
     }
 
     div{
-        width: 20%;
+        width: 30%;
         @media @mobile{
             .flashybackground();
             width:50%;
@@ -27,12 +29,14 @@
         }
     }
     nav {
-        width: 40%;
-        margin-right: 3%;
+        width: 60%;
+        //margin-right: 3%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         align-content: flex-end;
+        border: 1px solid black;
+
         @media @mobile{
             margin: 0 auto;
             //background-color: lightgray;
@@ -42,12 +46,12 @@
         }
 
         a{
-            width: 22%;
+            width: 24%;
             color: black;
             font-size: 1.6rem;
             text-align: center;
             text-decoration: none;
-            //border: 1px solid red;
+            border: 1px solid red;
             &:hover{
                 text-decoration: underline;
             }

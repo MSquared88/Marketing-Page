@@ -1,6 +1,6 @@
 // Mixins in here
 
-.parabutton(@width:83%, @bcolor:@actualbuttoncolor, @tcolor:white, @padding:5%, @radius:13px){
+.parabutton(@width:83%, @bcolor:@buttonBackgroundColor, @tcolor:@buttonTextColor, @padding:5%, @radius:13px){
     width: @width;
     background-color: @bcolor;
     color: @tcolor;
@@ -8,6 +8,7 @@
     border-radius: @radius;
     border: none;
     font-size: 1.6rem;
+    border: 1px solid @bcolor;
 
     &:hover{
     background-color: @tcolor;
@@ -16,6 +17,7 @@
     border: 1px solid @bcolor;
     }
 }
+
 .flashybackground(@name:flashy, @speed:1s, @loops:infinite){
     animation-name: @name;
     animation-duration: @speed;
