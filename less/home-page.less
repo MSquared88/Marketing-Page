@@ -3,6 +3,7 @@
     //border: 5px solid black;
     width: 100%;
     margin: 0 auto;
+    .backgroundAndBorder();
     .headerimg{
       width:100%;
       img{
@@ -22,6 +23,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    .backgroundAndBorder();
+
     @media @mobile{
     flex-direction: column;
     }
@@ -67,6 +70,8 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    .backgroundAndBorder();
+
     @media @mobile{
       width:100%;
       border-bottom: 2px dashed @navigation-border;
@@ -79,7 +84,9 @@
   }
 
   .content-pick {
+    .backgroundAndBorder();
     padding-top: 30px;
+    margin-bottom: 5px;
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;

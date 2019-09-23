@@ -206,8 +206,6 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  background-color: lightgrey;
-  opacity: 0.7;
 }
 @media (max-width: 500px) {
   .container {
@@ -220,8 +218,11 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
-  background-color: lightgrey;
+  background-color: #7f9c96;
+  border: 3px solid silver;
+  border-radius: 5px;
+  position: sticky;
+  top: 5px;
 }
 @media (max-width: 500px) {
   .nav {
@@ -249,12 +250,11 @@ img {
   }
 }
 .nav nav {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-content: flex-end;
-  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .nav nav {
@@ -265,19 +265,22 @@ img {
   }
 }
 .nav nav a {
-  width: 24%;
+  width: 32%;
   color: black;
   font-size: 1.6rem;
   text-align: center;
   text-decoration: none;
   border: 1px solid red;
+  background-color: #7f9c96;
+  border: 3px solid silver;
+  border-radius: 5px;
 }
 .nav nav a:hover {
   text-decoration: underline;
 }
 .annoyingline {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   border-top: 2px dashed silver;
 }
 @media (max-width: 500px) {
@@ -288,7 +291,8 @@ img {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #7f9c96;
+  border-radius: 5px;
 }
 .footer p {
   text-align: center;
@@ -299,6 +303,9 @@ img {
 .home header {
   width: 100%;
   margin: 0 auto;
+  background-color: #7f9c96;
+  border: 3px solid silver;
+  border-radius: 5px;
 }
 .home header .headerimg {
   width: 100%;
@@ -316,6 +323,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #7f9c96;
+  border: 3px solid silver;
+  border-radius: 5px;
 }
 @media (max-width: 500px) {
   .home .content-section {
@@ -360,6 +370,9 @@ img {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+  background-color: #7f9c96;
+  border: 3px solid silver;
+  border-radius: 5px;
 }
 @media (max-width: 500px) {
   .home .content-destination {
@@ -372,7 +385,11 @@ img {
   border-radius: 10px;
 }
 .home .content-pick {
+  background-color: #7f9c96;
+  border: 3px solid silver;
+  border-radius: 5px;
   padding-top: 30px;
+  margin-bottom: 5px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
