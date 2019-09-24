@@ -218,6 +218,26 @@ img {
     background-size: 200%;
   }
 }
+.aboutbgContainer {
+  background-image: url("../img/backgroundimg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 91.9vh;
+}
+@media (max-width: 800px) {
+  .aboutbgContainer {
+    background-size: 280%;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .aboutbgContainer {
+    background-image: url("../img/jesse-orrico-h6xNSDlgciU-unsplash.jpg");
+    background-size: 200%;
+  }
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -250,7 +270,7 @@ img {
   }
 }
 .nav div {
-  width: 30%;
+  width: 50%;
 }
 @media (max-width: 500px) {
   .nav div {
@@ -448,23 +468,50 @@ img {
   }
 }
 .aboutUs {
-  background-color: black;
+  background-image: url("../img/antique-backdrop-background-129731.jpg");
+  background-size: 100%;
+}
+.aboutUs h2 {
+  text-align: center;
+  background-color: rgba(242, 204, 143, 0.4);
 }
 .aboutUs p {
   padding: 0;
   margin: 0;
   text-align: center;
+  background-color: none;
 }
 .aboutUs .aboutUsDevs {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .aboutUs .aboutUsDevs {
+    justify-content: space-evenly;
+  }
 }
 .aboutUs .aboutUsDevs .aboutUsImgDiv {
-  background-color: red;
-  width: 33%;
+  background-color: rgba(242, 204, 143, 0.4);
+  width: 28%;
+}
+.aboutUs .aboutUsDevs .aboutUsImgDiv p {
+  background-color: transparent;
+}
+@media (max-width: 800px) {
+  .aboutUs .aboutUsDevs .aboutUsImgDiv {
+    width: 45%;
+  }
+}
+@media (max-width: 500px) {
+  .aboutUs .aboutUsDevs .aboutUsImgDiv {
+    width: 100%;
+  }
 }
 .aboutUs .aboutUsDevs .aboutUsImgDiv img {
   width: 100%;
   border-radius: 300px;
+}
+.footer p {
+  color: black;
 }
