@@ -433,3 +433,24 @@ img {
     padding: 3%;
   }
 }
+.aboutUs {
+  background-color: black;
+}
+.aboutUs p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.aboutUs .aboutUsDevs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.aboutUs .aboutUsDevs .aboutUsImgDiv {
+  background-color: red;
+  width: 33%;
+}
+.aboutUs .aboutUsDevs .aboutUsImgDiv img {
+  width: 100%;
+  border-radius: 300px;
+}
