@@ -4,18 +4,20 @@
 
 html {
   font-size: 62.5%;
-  background-color: @secondaryColorLight;
+  background-color: slategray;
 }
 
 html, body {
   font-family: 'Roboto', sans-serif;
 }
-body{
-  background-image: url("../img/backgroundimg.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+//body{
+  //background-image: url("../img/philip-swinburn-vS7LVkPyXJU-unsplash.jpg");
+  //background-image: linear-gradient(to bottom left, @1, @4, @3, @2, @3, @4, @1);
+  //margin: auto 0;
+  //background-size: 100%;
+  //background-repeat: no-repeat;
+  //background-attachment: fixed;
+//}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Indie Flower', cursive;
@@ -61,7 +63,22 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.bgContainer{
+  //margin: 100px 0;
+  background-image: url("../img/backgroundimg2.jpg");
+  //background-image: linear-gradient(to bottom left, @1, @4, @3, @2, @3, @4, @1);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  @media @tablet{
+    background-size: 280%;
+  }
+  @media @mobile{
+    background-image: url("../img/jesse-orrico-h6xNSDlgciU-unsplash.jpg");
+    background-size: 200%;
+  }
+}
 .container {
   max-width: 800px;
   width: 100%;
