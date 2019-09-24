@@ -67,12 +67,16 @@ img {
   //margin: 100px 0;
   background-image: url("../img/backgroundimg2.jpg");
   //background-image: linear-gradient(to bottom left, @1, @4, @3, @2, @3, @4, @1);
-  background-size: 100%;
+  background-size: 150%;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  @media @tablet{
+    background-size: 280%;
+  }
   @media @mobile{
     background-image: url("../img/jesse-orrico-h6xNSDlgciU-unsplash.jpg");
+    background-size: 200%;
   }
 }
 .container {
