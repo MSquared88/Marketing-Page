@@ -13,13 +13,13 @@
     .header-content{
     //border: 2px solid red;
     padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 2px dashed silver;
+    //padding-bottom: 15px;
     }
   }
 
   .content-section {
     margin: 30px 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,8 +30,10 @@
     }
 
     .text-content {
-      width: 48%;
-      padding-right: 1%;
+      width: 50%;
+      //padding-right: 1%;
+      //padding-bottom: 0%;
+      //border:1px solid red;
       @media @mobile{
         width:100%;
         order: 0;
@@ -39,31 +41,33 @@
     }
 
     .img-content {
-      width: 48%;
-      padding-left: 1%;
+      width: 50%;
+      //height:100%;
+      //padding-left: 1%;
+      //padding-bottom: 0%;
       @media @mobile{
        width:100%; 
        order: 99;
       }
-
-      img {
-        border-radius: 10px;
+      img{
+        width: 100%;
+        height:100%;
+        @media @tablet{
+        height: auto;
+        }
+        @media @mobile{
+          height: 100%;
+        }
       }
     }
   }
 
   .inverse-content {
-    padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
+    //padding-bottom: 30px;
 
     .text-content {
       padding-left: 1%;
       padding-right: 0;
-    }
-
-    .img-content {
-      padding-right: 1%;
-      padding-left: 0;
     }
   }
 
@@ -74,20 +78,14 @@
 
     @media @mobile{
       width:100%;
-      border-bottom: 2px dashed @navigation-border;
       padding-bottom: 30px;
-    }
-
-    img {
-      border-radius: 10px;
     }
   }
 
   .content-pick {
     .backgroundAndBorder();
-    padding-top: 30px;
-    margin-bottom: 5px;
-    border-top: 2px dashed @navigation-border;
+    //padding-top: 30px;
+    //margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     @media @mobile{
