@@ -274,10 +274,6 @@ img {
 }
 @media (max-width: 500px) {
   .nav div {
-    animation-name: flashy;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 12px;
@@ -334,7 +330,7 @@ img {
 }
 .footer p {
   text-align: center;
-  color: rgba(242, 204, 143, 0.4);
+  color: black;
   font-size: 1.6rem;
   padding: 20px;
 }
@@ -470,29 +466,21 @@ img {
 .aboutUs {
   background-image: url("../img/antique-backdrop-background-129731.jpg");
   background-size: 100%;
-}
-.aboutUs h2 {
-  text-align: center;
   background-color: rgba(242, 204, 143, 0.4);
+  border: 3px solid #2a4849;
+  border-radius: 5px;
+  text-align: center;
 }
 .aboutUs p {
   padding: 0;
   margin: 0;
-  text-align: center;
-  background-color: none;
 }
 .aboutUs .aboutUsDevs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-@media (max-width: 800px) {
-  .aboutUs .aboutUsDevs {
-    justify-content: space-evenly;
-  }
-}
 .aboutUs .aboutUsDevs .aboutUsImgDiv {
-  background-color: rgba(242, 204, 143, 0.4);
   width: 28%;
 }
 .aboutUs .aboutUsDevs .aboutUsImgDiv p {
@@ -511,7 +499,4 @@ img {
 .aboutUs .aboutUsDevs .aboutUsImgDiv img {
   width: 100%;
   border-radius: 300px;
-}
-.footer p {
-  color: black;
 }

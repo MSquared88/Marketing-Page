@@ -1,6 +1,5 @@
 .home {
   header {
-    //border: 5px solid black;
     width: 100%;
     margin: 0 auto;
     background-image: url("../img/antique-backdrop-background-129731.jpg");
@@ -31,12 +30,6 @@
 
     .text-content {
       width: 50%;
-      //padding: 1.5%;
-      //background-image: url("../img/nicole-wilcox-ExCeuFAH5ak-unsplash.jpg");
-      //background-size: 100%;
-      //padding-right: 1%;
-      //padding-bottom: 0%;
-      //border:1px solid red;
       h2, p{
         padding: 0 1%;
       }
@@ -45,27 +38,9 @@
         order: 0;
       }
     }
-    // .text-content::before {
-    //   content: "";
-    //   background-image: url("../img/nicole-wilcox-ExCeuFAH5ak-unsplash.jpg");
-    //   //background-size: 100%;
-    //   width: 50%;
-    //   height: 50%;
-    //   position: absolute;
-    //   opacity: 1;
-    //   //top: 0;
-    //   //left: 0;
-    //   //bottom: 0;
-    //   //right: 0;
-    //   //position: absolute;
-    //   z-index: 1;   
-    // }
 
     .img-content {
       width: 50%;
-      //height:100%;
-      //padding-left: 1%;
-      //padding-bottom: 0%;
       @media @mobile{
        width:100%; 
        order: 99;
@@ -83,7 +58,6 @@
     }
   }
 
-
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
@@ -97,8 +71,6 @@
 
   .content-pick {
     .backgroundAndBorder();
-    //padding-top: 30px;
-    //margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     @media @mobile{
@@ -115,7 +87,6 @@
       @media @mobile{
        width:100%; 
       }
-      //border: 1px solid pink;
     }
     .btn{
       .parabutton();
@@ -126,60 +97,3 @@
     }
   }
 }// home
-
-.aboutUs{
-  //background-color: black;
-  background-image: url("../img/antique-backdrop-background-129731.jpg");
-  background-size: 100%;
-  //margin-bottom: 100px;
-  //padding: 6% 0 9% 0;
-  h2{
-    text-align: center;
-    background-color: @4;
-  }
-  p{
-    padding: 0;
-    margin:0;
-    text-align: center;
-    background-color: none;
-  }
-  .aboutUsDevs{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    //background-color: white;
-
-    @media @tablet{
-      justify-content: space-evenly;
-    }
-    // @media @mobile{
-    //   flex-direction: column;
-    // }
-
-    .aboutUsImgDiv{
-      background-color: @4;
-      width:28%;
-      p{
-        background-color: transparent;
-      }
-      @media @tablet{
-        width: 45%;
-      }
-      @media @mobile{
-        width:100%;
-      }
-      img{
-        width: 100%;
-        border-radius: 300px;
-      }
-    }
-  }//aboutusdevs section
-}//aboutus
-
-.footer{
-  // position: sticky;
-  // bottom: 0px;
-  p{
-    color: black;
-  }
-}
