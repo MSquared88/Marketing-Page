@@ -1,0 +1,33 @@
+.aboutUs{
+  background-image: url("../img/antique-backdrop-background-129731.jpg");
+  background-size: 100%;
+  .backgroundAndBorder();
+  text-align: center;
+
+  p{
+    padding: 0;
+    margin:0;
+  }
+  .aboutUsDevs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .aboutUsImgDiv{
+      width:28%;
+      p{
+        background-color: transparent;
+      }
+      @media @tablet{
+        width: 45%;
+      }
+      @media @mobile{
+        width:100%;
+      }
+      img{
+        width: 100%;
+        border-radius: 300px;
+      }
+    }
+  }//aboutusdevs section
+}//aboutus
