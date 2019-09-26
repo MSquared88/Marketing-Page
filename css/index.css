@@ -545,6 +545,9 @@ button:hover {
   width: 100%;
   border-radius: 300px;
 }
+.aboutUs .aboutUsDevs .aboutUsImgDiv img:hover {
+  box-shadow: 0px 0px 20px 20px #be7c4d;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
