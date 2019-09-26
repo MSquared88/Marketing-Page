@@ -109,7 +109,27 @@ img {
   width: 100%;
   margin: 0 auto;
 
-  @media @mobile{
+  @media @tablet{
     width: 90%
+  }
+}
+button {
+  width: 100%;
+  height: 100%;
+  background-color: @4;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  transition-duration: 1s;
+  @media @tablet{
+    font-size: 1.3rem;
+  }
+
+  cursor: pointer;
+  &:hover {
+  background-color: @7; /* Green */
+  color: white;
+  font-weight: normal;
   }
 }
